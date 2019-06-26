@@ -10,12 +10,12 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "spoje.net/flexibee": "dev-master",
-        "vitexsoftware/ease-bricks": "dev-master"
+        "vitexsoftware/ease-twbootstrap": "dev-master",
+        "vitexsoftware/flexibe-bricks": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "FlexiPeeHP\\ui\\": "src/FlexiPeeHP/ui"
+            "FlexiPeeHP\\ui\\TWB": "src/FlexiPeeHP/ui/TWB"
         }
     },
     "autoload-dev": {
