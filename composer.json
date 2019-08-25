@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "FlexiPeeHP\\ui\\TWB": "src/FlexiPeeHP/ui/TWB"
+            "FlexiPeeHP\\ui\\TWB\\": "src/FlexiPeeHP/ui/TWB"
         }
     },
     "autoload-dev": {
