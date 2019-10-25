@@ -15,12 +15,12 @@
     },
     "autoload": {
         "psr-4": {
-            "FlexiPeeHP\\ui\\TWB\\": "src/FlexiPeeHP/ui/TWB"
+            "FlexiPeeHP\\ui\\TWB\\": "src/FlexiPeeHP/ui/TWB/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Test\\Ease\\": "vendor/vitexsoftware/ease-framework/tests/src/Ease",
+            "Test\\Ease\\": "vendor/vitexsoftware/ease-framework/tests/src/Ease/",
             "Test\\FlexiPeeHP\\": "vendor/spoje.net/flexipeehp/testing/src/FlexiPeeHP/",
             "Test\\FlexiPeeHP\\ui\\TWB\\": "testing/FlexiPeeHP/ui/TWB",
             "Test\\": "testing/"
