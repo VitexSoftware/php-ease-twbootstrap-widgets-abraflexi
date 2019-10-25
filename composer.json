@@ -1,6 +1,6 @@
 {
     "name": "vitexsoftware/ease-twbootstrap-widgets-flexibee",
-    "description": "php-flexibee extending classes and widgets",
+    "description": "php-flexibee extending classes and widgets using twitter bootstrap3 interface",
     "type": "library",
     "authors": [
         {
@@ -27,7 +27,6 @@
         }
     },
     "require-dev": {
-        "codeception/codeception": "*",
         "phpunit/phpunit": "^8"
     }
 }
