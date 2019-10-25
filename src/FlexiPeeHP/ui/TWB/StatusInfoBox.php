@@ -12,6 +12,7 @@ namespace FlexiPeeHP\ui\TWB;
  */
 class StatusInfoBox extends \FlexiPeeHP\Company
 {
+    use \Ease\Glue;
     /**
      * FlexiBee Status
      * @var array
