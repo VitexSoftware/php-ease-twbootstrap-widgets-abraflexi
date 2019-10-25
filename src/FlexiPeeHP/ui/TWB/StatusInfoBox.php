@@ -52,10 +52,10 @@ class StatusInfoBox extends \FlexiPeeHP\Company
         if ($this->connected()) {
         $myCompany = $this->getCompany();
             $return = new \Ease\TWB\LinkButton($this->url.'/c/'.$myCompany,
-                $this->info[$myCompany]['nazev'], 'success');
+               (new \FlexiPeeHP\ui\CompanyLogo(['height'=>'24'],[$myCompany]))->getRendered().' '. $this->info[$myCompany]['nazev'], 'success');
         } else {
             $return = new \Ease\TWB\LinkButton($this->getApiURL(),
-                _('Connection Problem'), 'danger');
+              (new \FlexiPeeHP\ui\FlexiBeeLogo())->getRendered() . ' '.  _('Connection Problem'), 'danger');
         }
 
         $return->draw();
