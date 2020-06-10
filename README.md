@@ -9,7 +9,7 @@ Příklady použití knihovny [FlexiPeeHP](https://github.com/Spoje-NET/FlexiPee
 Instalace
 ----------
 
-    composer require vitexsoftware/ease-twbootstrap-widgets-flexibee
+    composer require vitexsoftware/ease-bootstrap-widgets-flexibee
 
 
 
@@ -41,5 +41,5 @@ Pro Linux jsou k dispozici .deb balíčky. Prosím použijte repo:
     wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
     echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/ease.list
     apt update
-    apt install php-twbootstrap-widgets-flexibee
+    apt install php-bootstrap-widgets-flexibee
 

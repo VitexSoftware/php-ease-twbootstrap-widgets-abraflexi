@@ -1,5 +1,5 @@
 {
-    "name": "vitexsoftware/ease-twbootstrap-widgets-flexibee",
+    "name": "vitexsoftware/ease-bootstrap-widgets-flexibee",
     "description": "php-flexibee extending classes and widgets using twitter bootstrap3 interface",
     "type": "library",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "vitexsoftware/ease-twbootstrap": "dev-master",
+        "vitexsoftware/ease-bootstrap": "dev-master",
         "vitexsoftware/flexibee-bricks": "dev-master"
     },
     "autoload": {
