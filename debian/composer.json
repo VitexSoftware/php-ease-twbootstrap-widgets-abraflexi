@@ -1,70 +1,69 @@
 {
-    "name": "deb/flexibee-bricks",
-    "description": "php-flexibee extending classes and widgets (debianized)",
-    "homepage": "https://github.com/VitexSoftware/FlexiPeeHP-Bricks",
-    "license": "GPL-2.0+",
-    "version": "0.25",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Vítězslav Dvořák",
-            "email": "vitex@arachne.cz"
-        }
-    ],
-    "require": {
-        "deb/flexibee": "*",
-        "deb/ease-bricks": "*"
+  "name": "deb/abraflexi-bricks",
+  "description": "php-abraflexi extending classes and widgets (debianized)",
+  "homepage": "https://github.com/VitexSoftware/AbraFlexi-Bricks",
+  "license": "GPL-2.0+",
+  "version": "0.25",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Vítězslav Dvořák",
+      "email": "vitex@arachne.cz"
+    }
+  ],
+  "require": {
+    "deb/abraflexi": "*",
+    "deb/ease-bricks": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AbraFlexi\\ui\\TWB": "./AbraFlexi/ui/TWB"
+    }
+  },
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "path",
+      "url": "/usr/share/php/EaseCore",
+      "options": {
+        "symlink": true
+      }
     },
-    "autoload": {
-        "psr-4": {
-            "FlexiPeeHP\\Bricks\\": "./Bricks",
-            "FlexiPeeHP\\Bricks\\ConvertRules\\": "./Bricks/ConvertRules",
-            "FlexiPeeHP\\ui\\": "./ui"
-        }
+    {
+      "type": "path",
+      "url": "/usr/share/php/EaseHtml",
+      "options": {
+        "symlink": true
+      }
     },
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/usr/share/php/EaseCore",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "/usr/share/php/EaseHtml",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "/usr/share/php/EaseTWB",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "/usr/share/php/EaseBricks",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "/usr/share/php/flexibee",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "/usr/share/php/FlexiBee",
-            "options": {
-                "symlink": true
-            }
-        }
-    ]
+    {
+      "type": "path",
+      "url": "/usr/share/php/EaseTWB",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "type": "path",
+      "url": "/usr/share/php/EaseBricks",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "type": "path",
+      "url": "/usr/share/php/abraflexi",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "type": "path",
+      "url": "/usr/share/php/AbraFlexi",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "address": "0.25"
 }

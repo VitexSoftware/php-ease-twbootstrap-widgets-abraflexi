@@ -1,6 +1,6 @@
 <?php
 /**
- * FlexiPeeHP-Bricks - Unit Test bootstrap
+ * AbraFlexi-Bricks - Unit Test bootstrap
  *
  * @author Vítězslav Dvořák <info@vitexsoftware.cz>
  * @copyright (c) 2018, Vítězslav Dvořák
@@ -15,15 +15,15 @@ define('EASE_LOGGER', 'syslog');
 /*
 $banka = 'HLAVNI';
 
-$prober = new FlexiPeeHP\FlexiBeeRW();
+$prober = new AbraFlexi\AbraFlexiRW();
 $prober->setEvidence('bankovni-ucet');
 if (!$prober->recordExists(['kod' => $banka])) {
-    $prober->insertToFlexiBee(['kod' => $banka,
+    $prober->insertToAbraFlexi(['kod' => $banka,
         'nazev' => $banka
     ]);
 }
 
-$labeler = new FlexiPeeHP\Stitek();
+$labeler = new AbraFlexi\Stitek();
 $labeler->createNew('CHYBIFAKTURA', ['banka']);
 $labeler->createNew('NEIDENTIFIKOVANO', ['banka']);
 */

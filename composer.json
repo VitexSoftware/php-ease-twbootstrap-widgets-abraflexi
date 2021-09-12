@@ -1,6 +1,6 @@
 {
-    "name": "vitexsoftware/ease-bootstrap-widgets-flexibee",
-    "description": "php-flexibee extending classes and widgets using twitter bootstrap3 interface",
+    "name": "vitexsoftware/ease-bootstrap-widgets-abraflexi",
+    "description": "php-abraflexi extending classes and widgets using twitter bootstrap3 interface",
     "type": "library",
     "authors": [
         {
@@ -11,18 +11,18 @@
     "minimum-stability": "stable",
     "require": {
         "vitexsoftware/ease-twbootstrap": "dev-master",
-        "vitexsoftware/flexibee-bricks": "dev-master"
+        "vitexsoftware/abraflexi-bricks": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "FlexiPeeHP\\ui\\TWB\\": "src/FlexiPeeHP/ui/TWB/"
+            "AbraFlexi\\ui\\TWB\\": "src/AbraFlexi/ui/TWB/"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "Test\\Ease\\": "vendor/vitexsoftware/ease-framework/tests/src/Ease/",
-            "Test\\FlexiPeeHP\\": "vendor/spoje.net/flexipeehp/testing/src/FlexiPeeHP/",
-            "Test\\FlexiPeeHP\\ui\\TWB\\": "testing/FlexiPeeHP/ui/TWB",
+            "Test\\AbraFlexi\\": "vendor/spoje.net/abraflexi/testing/src/AbraFlexi/",
+            "Test\\AbraFlexi\\ui\\TWB\\": "testing/AbraFlexi/ui/TWB",
             "Test\\": "testing/"
         }
     },
