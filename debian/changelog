@@ -1,6 +1,9 @@
-php-vitexsoftware-ease-bootstrap-widgets-abraflexi (0.25) UNRELEASED; urgency=medium
+php-vitexsoftware-ease-bootstrap-widgets-abraflexi (1.1) UNRELEASED; urgency=medium
 
   [ Vítězslav Dvořák ]
   * Packed
 
- -- CyberVitexus <vitex@exiv.jinonice.czf>  Mon, 25 Jan 2021 21:22:58 +0100
+  [ vitex ]
+  * release 1.1
+
+ -- vitex <info@vitexsoftware.cz>  Tue, 19 Oct 2021 13:07:56 +0200
