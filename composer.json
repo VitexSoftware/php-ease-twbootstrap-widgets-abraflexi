@@ -11,8 +11,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "vitexsoftware/ease-twbootstrap": "dev-master",
-        "vitexsoftware/abraflexi-bricks": "dev-master"
+        "vitexsoftware/ease-twbootstrap": ">=1.0",
+        "vitexsoftware/abraflexi-bricks": ">=1.1"
     },
     "autoload": {
         "psr-4": {
