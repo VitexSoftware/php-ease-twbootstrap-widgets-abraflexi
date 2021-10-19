@@ -2,6 +2,7 @@
     "name": "vitexsoftware/ease-bootstrap-widgets-abraflexi",
     "description": "php-abraflexi extending classes and widgets using twitter bootstrap3 interface",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Vitex",
