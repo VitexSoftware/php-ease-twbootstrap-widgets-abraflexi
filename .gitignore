@@ -10,3 +10,7 @@ composer.lock
 /debian/abraflexi-bricks/
 /debian/abraflexi-bricks-doc/
 /debian/php-abraflexi-bricks.debhelper.log
+/debian/php-vitexsoftware-ease-bootstrap-widgets-abraflexi.debhelper.log
+/debian/php-vitexsoftware-ease-bootstrap-widgets-abraflexi.substvars
+/debian/.debhelper/
+/debian/files
