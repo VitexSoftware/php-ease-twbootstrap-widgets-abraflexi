@@ -38,8 +38,11 @@ Debian/Ubuntu
 
 Pro Linux jsou k dispozici .deb balíčky. Prosím použijte repo:
 
-    wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
-    echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/ease.list
-    apt update
+    sudo apt install lsb-release wget apt-transport-https bzip2
+
+
+    wget -qO- https://repo.vitexsoftware.com/keyring.gpg | sudo tee /etc/apt/trusted.gpg.d/vitexsoftware.gpg
+    echo "deb [signed-by=/etc/apt/trusted.gpg.d/vitexsoftware.gpg]  https://repo.vitexsoftware.com  $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/vitexsoftware.list
+    sudo apt update
     apt install php-bootstrap-widgets-abraflexi
 
