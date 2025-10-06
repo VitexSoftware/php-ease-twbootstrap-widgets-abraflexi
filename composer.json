@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "require": {
         "vitexsoftware/ease-twbootstrap": ">=1.1.2",
-        "vitexsoftware/abraflexi-bricks": ">=1.4.1"
+        "vitexsoftware/abraflexi-bricks": ">=1.4.2"
     },
     "autoload": {
         "psr-4": {
